@@ -1,5 +1,3 @@
-Certainly! Here's a simple summary that you can include in your Git repository's README to explain polymorphism:
-
 ---
 
 # Easy Angular Polymorphism
