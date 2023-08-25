@@ -1,0 +1,10 @@
+<div>All Shapes</div>
+
+<div class="flex-container">
+  <ng-container *ngFor="let shape of shapes" [ngSwitch]="shape.type">
+    <app-circle *ngSwitchCase="'circle'" [shape]="shape"></app-circle>
+    <app-rectangle *ngSwitchCase="'rectangle'" [shape]="shape"></app-rectangle>
+    <app-square *ngSwitchCase="'square'" [shape]="shape"></app-square>
+    <div *ngSwitchDefault>Unknown Shape</div>
+  </ng-container>
+</div>

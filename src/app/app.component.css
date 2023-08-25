@@ -1,0 +1,6 @@
+/* styles.css or your component's CSS */
+.flex-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  align-items: center; /* Align vertically centered */
+}
